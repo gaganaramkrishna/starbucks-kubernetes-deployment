@@ -41,3 +41,39 @@ kubectl apply -f k8s/
 
 # Check deployment status
 kubectl get all
+
+AWS EKS Cluster
+├── Starbucks Deployment (2+ pods)
+├── LoadBalancer Service
+├── ConfigMaps & Secrets
+└── Auto-scaling Configuration
+
+📂 Project Structure
+text
+starbucks-kubernetes-deployment/
+├── k8s/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── configmap.yaml
+├── docker/
+│   └── Dockerfile
+├── manifests/
+│   └── kubernetes-resources/
+└── README.md
+
+🎯 Learning Outcomes
+Kubernetes cluster management on AWS EKS
+
+Container orchestration best practices
+
+Cloud infrastructure automation
+
+DevOps pipeline implementation
+
+Troubleshooting distributed systems
+
+🤝 Contributing
+Feel free to fork this project and submit PRs for any improvements!
+
+📄 License
+MIT License - feel free to use this project for learning purposes!
